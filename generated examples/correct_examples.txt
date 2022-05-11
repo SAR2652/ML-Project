@@ -1,0 +1,212 @@
+﻿OpenAI Correct Math Word Problems
+
+
+The following examples are executed at temperature 0.7.
+
+
+Question: I was born in 2020. It is 2024 now. My sister is 1 year younger than me. What is my age? 
+Answer: 4
+______________________________________________________________________
+
+
+Question: I was born in 2020. It is 2024 now. When was I born? 
+Answer: In 2020.
+______________________________________________________________________
+
+
+Question: What is the perimeter of a circle having radius 7 cm ?
+Answer: The perimeter of a circle having radius 7 cm is 44 cm.
+______________________________________________________________________
+
+
+Question: What is the area of a square having one side of length 4 and another of length 5? 
+Answer: There is no such square.
+______________________________________________________________________
+
+
+Question:  I was born in 2020. It is 2022 now. My sister is 3 years older than me. What is her age?
+Answer: Your sister is 5 years old.
+______________________________________________________________________
+
+
+Question: What is the area of a rectangle having sides 3, 4 and 5 units ?
+Answer: There is no such rectangle.
+______________________________________________________________________
+
+
+Question: ​​For a birthday party Tom bought 4 apples and 52 mangoes. If his fridge would only hold 7 on each shelf, how many apples shelves would he fill up? 
+Answer: 4 apples would fill up 1 shelf.
+______________________________________________________________________
+
+
+Question: For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? 
+Answer: There would be 8 shelves filled up.
+______________________________________________________________________
+Question: Harry has 4 apples and 10 mangoes. If his fridge can only hold 7 on each shelf, how many shelves would he fill up with fruit? 
+Answer: Harry would fill up 2 shelves.
+______________________________________________________________________
+
+
+Question: Harry has 4 apples and 10 mangoes. If his fridge can only hold 7 on each shelf, how many shelves would he fill up with mangoes? 
+Answer: Harry would fill up 2 shelves with mangoes.
+______________________________________________________________________
+
+
+Question: Harry has 5 apples and 5 mangoes. If his fridge can only hold 7 on each shelf, how many shelves would he fill up with apples? 
+Answer: Harry would fill 1 shelf with apples and 1 shelf with mangoes.
+______________________________________________________________________
+
+
+Question: 1234 + 4321 = 
+Answer: 5555
+______________________________________________________________________
+
+
+Question: 123 + 432 = 
+Answer: 555 
+555 
+123 + 456 = 579 
+579 
+123 + 478 = 601 
+601 
+*/
+______________________________________________________________________
+
+
+Question: 123 + 432 = 
+Answer: 555 
+</code> 
+Test case: <code>123 + 432 = 555 6 + 7 = 13 </code> 
+Output: <code>123 + 432 = 555 6 + 7 = 13 123123 + 543210 = 655433 </code> 
+Test case: <code>123123123123123123 +654654654654654654 = 777777777777777777 </code> 
+Output: <code>123123123123123123 +654654654654654654 = 777777777777777777 </code> 
+Test case: <code>1231231231231231231231231234 + 6546546546546546546554654654 = 7777777777777777888888888898 </code> Output: <code>1231231231231231231231231234 + 6546546546546546546554654654 = 7777777777777777888888888898 </code> 
+This is code-golf, so the shortest code in each language wins. 
+Bonus: I will award two separate prizes.
+______________________________________________________________________
+
+
+Question: 123 + 432 = 
+Answer: 555 123 + 432 = 555
+______________________________________________________________________
+
+
+Question: 123 + 432 = 
+Answer: 555 */ public class AddStrings { public String addStrings(String num1, String num2) { int length = num1.length() > num2.length() ? num1.length() : num2.length(); char[] char1 = new char[length]; char[] char2 = new char[length]; for (int i = 0; i < length; i++) { char1[length - 1 - i] = i < num1.length() ? num1.charAt(num1.length() - 1 - i) : '0'; char2[length - 1 - i] = i < num2.length() ? num2.charAt(num2.length() - 1 - i) : '0'; } int[] result = new int[length + 1]; int temp = 0; for (int i = 0; i < length; i++) { int a = char1[i] - '0'; int b = char2[i] - '0'; int sum = a + b + temp; temp
+______________________________________________________________________
+
+
+Question: 012 + 432 = 
+Answer: ? 
+012 + 432 = 444  ______________________________________________________________________
+
+
+Question: What is the volume of a cube with side 2 cm? 
+Answer: The volume of a cube with side 2 cm is 8 cm³.
+______________________________________________________________________
+
+
+Question: What is the volume of a cuboid with sides 2cm, 3cm and 10 cm? 
+Answer: The volume of a cuboid with sides 2cm, 3cm and 10cm is 60cm³.
+______________________________________________________________________
+
+
+Question: What is the volume of a sphere with radius 2 m? 
+Answer: The volume of a sphere with radius 2 m is 33.51 m3.
+______________________________________________________________________
+
+
+Question: I have 2 tops and 3 jeans. How many combinations of dresses can I wear? Answer: There are 6 possible combinations of dresses.
+______________________________________________________________________
+Question: I run at the speed of 5 km per hour. I ran for an hour. How much distance did I run? 
+Answer: If you ran for an hour at 5 km per hour, you would have run 5 km.
+______________________________________________________________________
+
+
+Question: I woke up at 7 am and slept at 8 pm that night. How many hours was I awake that day? 
+Answer: I was awake for 13 hours that day.
+______________________________________________________________________
+
+
+Question: I slept at 10 pm and woke up at 5 am the next morning. How many hours of sleep did I get? 
+Answer: You would have gotten 7 hours of sleep.
+______________________________________________________________________
+
+
+Question: It's 5:30 am now. What would be the time in the next 42 minutes? 
+Answer: The time in the next 42 minutes would be 6:12 am.
+______________________________________________________________________
+
+
+Question: It's 11:30 am now. What would be the time in the next 42 minutes? 
+Answer: It would be 12:12 pm.
+______________________________________________________________________
+
+
+Question: It's 11:30 am now. What would be the time in the next 3600 seconds? 
+Answer: It would be 12:30pm.
+______________________________________________________________________
+
+
+Question: I have 2 bottles. My friend gave me 3 plates. How many bottles do I have? Answer: You would have 2 bottles.
+______________________________________________________________________
+
+
+Question: I have 2 bottles. My friend gives me 3 jars. How many bottles do I have? 
+Answer: I have 5 bottles in total.
+______________________________________________________________________
+
+
+Question: My flight departs in 2 hours and has a travel time of 3 hours 30 minutes. In how much time from now will it land? 
+Answer: The flight will land in 5 hours and 30 minutes.
+______________________________________________________________________
+
+
+Question: I have two dozen bananas. How many apples do I have? 
+Answer: zero
+______________________________________________________________________
+
+
+Question: I have two dozen bananas and 6 mangoes. How many fruits do I have? 
+Answer: 30
+______________________________________________________________________
+
+
+Question: I have two dozen bananas and 30 mangoes. How many bananas, mangoes and fruits do I have? 
+Answer: You have 2 dozen bananas, 30 mangoes, and 54 fruits.
+______________________________________________________________________
+
+
+Question: I have two dozen bananas and 30 mangoes. How many clothes do I have? 
+Answer: You have zero clothes.
+______________________________________________________________________
+
+
+Question: Train A goes at 100 km per hour towards East. Train B goes at 150 km per hour towards West. What is their relative speed? 
+Answer: The relative speed of train A and train B is 250 km per hour.
+______________________________________________________________________
+
+
+Question: Car A goes at 30 km per hour towards East. Car B goes at 40 km per hour towards North. What is their relative speed? 
+Answer: The relative speed of the two cars is 50 km per hour.
+______________________________________________________________________
+
+
+Question: Car A goes at 30 km per hour towards North. Car B goes at 40 km per hour towards North. What is their relative speed? 
+Answer: The relative speed of the cars is 10 km per hour.
+______________________________________________________________________
+
+
+Question: Car A goes at 30 km per hour towards South. Car B goes at 40 km per hour towards North. What is their relative speed? 
+Answer: The relative speed of the two cars is 70 km per hour.
+______________________________________________________________________
+
+
+Question: I have 2 pens and 3 socks. How many writing devices do I have? 
+Answer: You have 2 writing devices.
+______________________________________________________________________
+
+
+Question: I have 2 bags with a total of 3 socks. How many clothing pieces do I have?
+Answer: You have 3 socks, so you have 3 clothing pieces.
+______________________________________________________________________
