@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=gpt2_5000
+#SBATCH --job-name=gpt2_training
 #SBATCH --nodes=1
 #SBATCH --export=ALL
 #SBATCH --cpus-per-task=5
@@ -16,4 +16,4 @@ eval "$(conda shell.bash hook)"
 source /home/sr5796/.bashrc
 source activate torch_env
 cd /scratch/sr5796/ML/gpt2_5000
-python gpt2_trainer_5000.py
+python gpt2_trainer.py
