@@ -1,0 +1,44 @@
+Problem,Rationale
+I have 2 tops and 3 jeans. How many combinations of dresses can I wear? ,i can wear 2 * 3 = 6 combinations of dresses .
+"I have 4 red balls, 3 white balls. My friend gave me 2 blue chips. How many balls do I have?","i will have a total of 4 + 3 = 7 balls .
+"
+"I have 4 red balls, 3 white balls. My friend gave me 2 red chips. How many red balls do I have? ","you will still have 4 red balls because chips are not the same as balls .
+"
+"I have 4 red balls, 3 white balls. My friend gave me 2 bats. How many balls do I have?",you will have a total of 4 + 3 = 7 balls .
+"I have 4 red balls, 3 white balls. My friend took 2 balls from me. How many balls do I have?","i will have a total of 7 - 2 = 5 balls .
+"
+I run at the speed of 10 km per hour. I run for 30 minutes. How much distance did I run? ,"i run for ( 30 / 60 = 0.5 ) hours at the speed of 10 km/hr . i run a distance of 0.5 * 10 = 5 kilometers .
+"
+I run at the speed of 5 km per hour. I ran for 120 minutes. How much distance did I run? ,i run for ( 120 / 60 = 2 ) hours at the speed of 5 km/hr . i run a distance of 2 * 5 = 10 kilometers .
+I woke up at 7 am and slept at 8 pm next night. How many hours was I awake in this duration? ,"from 7 am to next morning , i was up for 24 hours , then till 7 pm that night I was up for another 12 hours , then till 8 pm , i was up for another 1 hour . so in total , i was up for 24 + 12 + 1 = 37 hours .
+"
+" I slept at 4 pm and woke up at 5 am the next morning. How many hours of sleep did I get? 
+","from 4 pm to 4 am , i had 12 hours of sleep , and 1 more hour of sleep till 5 am . so in total , i had 12 + 1 = 13 hours of sleep ."
+It's 11:30 am now. What would be the time in the next 3720 seconds?,"3720 seconds = 62 minutes = 1 hour 2 minutes . 11:30 + 1:02 = 12:32 pm .
+"
+It's 11:30 am now. What would be the time in the next 3660 seconds? ,"3660 seconds = 61 minutes = 1 hour 1 minute . 11:30 + 1:01 = 12:31 pm .
+"
+It's 11:30 am now. What would be the time in the next 600 seconds? ,"600 seconds = 10 minutes = 11:30 + 0:10 = 11:40 pm .
+"
+"It's 11:30 am now. What would be the time in the next 600 minutes? 
+","600 minutes = 10 hours = 11:30 + 10:00 = 21:30 = 9:30 pm
+"
+"It's 11:30 am now. What would be the time in the next 23 hours? 
+","11:30 + 23:00 = 34:30 hours = 1 day 10 hours 30 minutes = 10:30 am .
+"
+"It's 11:30 am now. What would be the time in the next 24 hours? 
+","11:30 am + 24:00 = 35:30 hours = 1 day 11 hpours 30 min = 11:30 am .
+"
+"I have 2 bowls, 3 plates, 4 bulbs. How many utensils do I have? ",bowls and plates are utensils . bulbs are not utensils . i have a total of 2 + 3 = 5 utensils .
+"I have 2 jackets, 3 jeans, 4 shirts, 3 watches, 1 hat. How many pieces of clothes do I have? ","jackets , jeans , shirts and hats are considered as clothes . watches are not considered as clothes . so i have a total of 2 + 3 + 4 + 1 = 5 clothes ."
+"My flight departs in 2 hours and has a travel time of 3 hours 15 minutes. It is 2 pm right now. What time will my flight land? 
+",my flight departs at 2 + 2 = 4 pm . its travel time is 3 hours 15 minutes . it will land at 4 + 3:15 = 7:15 pm .
+I have a class in 10 minutes. My class will go on for 50 minutes. It is 1:20 pm right now. When will my class end? ,class begins in 10 minutes . the start time of the class is 1:20 + 0:10 = 1:30 pm . class ends in 50 minutes . so it will end at 1:30 + 0:50 = 1:80 hours = 2:20 pm . 
+"I have two dozen bananas, 1 dozen apples and 6 mangoes. How many fruits do I have? 
+",1 dozen = 12 units . two dozen bananas = 2 * 12 = 24 bananas . 1 dozen apples = 1 * 12 = 12 apples . total number of fruits = 24 + 12 + 6 = 42 fruits .
+I have two dozen bananas and 30 mangoes. How many fruits do I have? ,1 dozen = 12 units . two dozen bananas = 2 * 12 = 24 bananas . total fruits = 24 + 30 = 54 fruits .
+"I have two dozen bananas and 30 mangoes. How many bananas, mangoes and fruits do I have? ","1 dozen = 12 units . two dozen bananas = 2 * 12 = 24 bananas . total fruits = 24 + 30 = 54 fruits . you have 24 bananas , 30 mangoes and 54 fruits ."
+"Car A goes at 10 km per hour towards East. Car B goes at 10 km per hour towards North. What is their relative speed? 
+",north and east directions are at 90 degrees angle with each other . the relative speed is given as sqrt( ( 10 ) ^ 2 +  ( 10 ) ^ 2  ) = sqrt( 200 ) = 14.14 km/hr
+ Car A goes at 5 km per hour towards East. Car B goes at 12 km per hour towards North. What is their relative speed? ,east and north directions are at 90 degrees angle with each other . the relative speed is given as sqrt( ( 5 ) ^ 2 +  ( 12 ) ^ 2  ) = sqrt( 169 ) = 13 km/hr
+Car A goes at 24 km per hour towards South. Car B goes at 7 km per hour towards West. What is their relative speed? ,south and west directions are at 90 degrees angle with each other . the relative speed is given as sqrt( ( 24 ) ^ 2 +  ( 7 ) ^ 2  ) = sqrt( 625 ) = 25 km/hr
